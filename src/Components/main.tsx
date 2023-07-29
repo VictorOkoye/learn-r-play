@@ -58,7 +58,7 @@ export const Main = () => {
   }, [dispatch, questionNoDropdownlist]);
   return (
     <MainStyles>
-      <h1>LEARN-R-PLAY</h1>
+      <h1>TECHIE QUIZ</h1>
       <FormLayout />
     </MainStyles>
   );
@@ -78,7 +78,7 @@ export const Intro = () => {
         <div className="code">
           <Code />
         </div>
-        <h2>WELCOME LEARNR!</h2>
+        <h2>HELLO LEARNR!</h2>
       </div>
       <div className="feel">
         <p>How are you today?</p>

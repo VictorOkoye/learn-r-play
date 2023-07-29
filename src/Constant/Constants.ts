@@ -14,6 +14,7 @@ export interface IOption {
   text: string;
 }
 
+// change the questions
 export const Questions: IQuestion[] = [
   {
     id: 1,
@@ -31,7 +32,7 @@ export const Questions: IQuestion[] = [
     question: "Who said 'Slow down on the coding diet'?",
     options: [
       { id: 1, text: "Layi Waysabi" },
-      { id: 2, text: "Hacksuktan" },
+      { id: 2, text: "Hacksultan" },
       { id: 3, text: "Idan" },
       { id: 4, text: "Layi Wasabi" },
     ],
@@ -313,3 +314,5 @@ export const EmojiList:IEmoji[] =[
   {id : 2, isSelected : false, color : "#4B0082", supcolor : "hsla(275, 90%, 35%, 0.7)"},
   {id : 3, isSelected : false, color : "#00008b", supcolor : "hsla(240, 100%, 50%,0.7)"},
 ]
+
+// export const AudioSounds

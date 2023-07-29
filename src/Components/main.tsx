@@ -24,11 +24,9 @@ import {
 import { Timer } from "./timer";
 import {
   DropdownList,
-  EmojiList,
   IEmoji,
   IOption,
   IQuestion,
-  Questions,
 } from "../Constant/Constants";
 import { useAppDispatch, useAppSelector } from "../redux/hooks";
 import {
@@ -43,11 +41,14 @@ import {
   setDefaultQuestionNumber,
   setHasEnded,
   setHasStarted,
+  setPlayQuizBgSound,
   setSelectedOption,
   setSelectedQuestionAnswerId,
   toggleIsQuestionAnswered,
   toggleShowQuestionList,
 } from "../redux/dataSlice";
+
+
 
 export const Main = () => {
   const { questionNoDropdownlist } = useAppSelector(dataSelector);
@@ -68,6 +69,7 @@ export const Intro = () => {
   const dispatch = useAppDispatch();
   const startQuiz = () => {
     dispatch(setAttemptQuestion());
+    dispatch(setPlayQuizBgSound(true));
     dispatch(setHasStarted(true));
   };
   return (
@@ -303,6 +305,7 @@ export const Question: FunctionComponent<IQuestion> = ({
       dispatch(setHasEnded(true));
       dispatch(setHasStarted(null));
       dispatch(resetQuizParameters());
+      dispatch(setPlayQuizBgSound(false));
     } else {
       dispatch(setAttemptQuestion());
       dispatch(toggleIsQuestionAnswered());

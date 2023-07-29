@@ -1,6 +1,6 @@
 import { css, styled } from "styled-components";
 import { motion } from "framer-motion";
-import { OptionVariants, compVariants } from "../Animations/Animations";
+import { compVariants } from "../Animations/Animations";
 
 export const MainStyles = styled.main`
   display: flex;
@@ -22,13 +22,11 @@ export const MainStyles = styled.main`
     }
   }
   @media (max-width: 767px) {
-    width: 70%;
-    max-width: 348px;
-    h1 {
-      font-size: 1.8rem;
-    }
+    width: 80%;
   }
   @media (max-width: 500px) {
+    font-size: 1.8rem;
+    max-width: 348px;
     width: 90%;
   }
   @media (max-width: 370px) {
@@ -65,7 +63,7 @@ export const WelcomeStyles = styled(motion.div).attrs<ICodeStyle>(() => ({
     width: 100%;
     fill: ${(props) => props.color};
   }
-  h2 {
+  h2, h3 {
     color: #1d355d;
     font-family: Raleway;
     font-size: 2.5rem;
@@ -107,6 +105,7 @@ export const WelcomeStyles = styled(motion.div).attrs<ICodeStyle>(() => ({
   }
   .select h3 {
     font-family: Raleway;
+    font-size: 1.5rem;
   }
   .start {
     display: flex;

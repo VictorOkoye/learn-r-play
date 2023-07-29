@@ -27,6 +27,7 @@ interface IDataSlice {
   hasFinishedQuestions: boolean;
   playerScore: number;
   timerState: number;
+  playQuizBgSound : boolean;
 }
 export interface IBgTheme {
   color?: string;
@@ -49,6 +50,7 @@ const initialState: IDataSlice = {
   hasFinishedQuestions: false,
   playerScore: 0,
   timerState: 10,
+  playQuizBgSound : false,
 };
 
 const generateRandom = (min: number, max: number) => {
@@ -177,6 +179,9 @@ export const dataSlice = createSlice({
     },
     resetTimer:(state)=>{
       state.timerState = 10;
+    },
+    setPlayQuizBgSound :(state, action:PayloadAction<boolean>)=>{
+      state.playQuizBgSound = action.payload;
     }
   },
 });
@@ -198,7 +203,8 @@ export const {
   resetPlayerScore,
   resetQuizParameters,
   resetTimer,
-  saveTimer
+  saveTimer,
+  setPlayQuizBgSound
 } = dataSlice.actions;
 export const dataSelector = (state: RootState) => state.data;
 export default dataSlice.reducer;

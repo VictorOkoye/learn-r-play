@@ -55,6 +55,7 @@ export const LayoutStyles = styled.div<IBgTheme>`
     transform: rotate(30deg);
     animation: moveTwo 1s linear;
   }
+  
   ${(props) =>
     props.color &&
     css`
@@ -64,7 +65,10 @@ export const LayoutStyles = styled.div<IBgTheme>`
         background: ${props.supcolor};
       }
     `}
-  @media (max-width: 767px) {
+  .ewe{
+    z-index: 10;
+  }
+  @media (max-width: 500px) {
     flex-direction: column;
     gap: 1.5rem;
     .one,

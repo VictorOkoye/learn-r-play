@@ -35,7 +35,8 @@ const Layout = () => {
   const dispatch = useDispatch();
   // adding howler is giving issues!
 
-  /*Map out all our audion files */
+  /*Map out all our audio files */   
+  // I will have to change the success audio file
   const audioFiles = [
     "/bg-sound.mp3",
     "/correct.mp3",

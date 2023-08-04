@@ -62,7 +62,7 @@ export const Main = () => {
   }, [dispatch, questionNoDropdownlist]);
   return (
     <MainStyles>
-      <h1>TECHIE QUIZ</h1>
+      <h1>LEARN-R-PLAY</h1>
       <FormLayout />
     </MainStyles>
   );
@@ -83,12 +83,12 @@ export const Intro = () => {
         <div className="code">
           <Code />
         </div>
-        <h2>WELCOME IDAN!</h2>
+        <h2>HEY LEARNR!</h2>
       </div>
       <div className="feel">
         <p>How are you today?</p>
         <div className="smileys">
-          {emojiList.map((ele: any, index: number) => (
+          {emojiList.map((ele: IEmoji, index: number) => (
             <Emoji
               key={index}
               id={ele.id}

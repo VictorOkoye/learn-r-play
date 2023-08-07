@@ -33,11 +33,11 @@ Start the server
 ## Screenshots
 
 
-![home](https://github.com/youngancient/techieQuiz/assets/93747805/f1fab91a-ef71-45d5-99b8-dd7a120ee6c0)
+![l1](https://github.com/VictorOkoye/learn-r-play/assets/139196126/9470df14-2f90-4a55-b395-8b839774ce32)
 
-![playing](https://github.com/youngancient/techieQuiz/assets/93747805/4d5f5042-5831-46d5-b085-8d883f117a44)
+![l2](https://github.com/VictorOkoye/learn-r-play/assets/139196126/6cc6aff6-b454-474e-89b8-b645051f4087)
 
-![techie-quiz3](https://github.com/youngancient/techieQuiz/assets/93747805/aa14dd4d-d289-41ed-96b3-20792ca04b39)
+![l3](https://github.com/VictorOkoye/learn-r-play/assets/139196126/00cb2981-2130-4a64-a41f-03191799443a)
 
 
 ## Contributing
@@ -52,7 +52,7 @@ Fork the project, make your changes, and submit a pull request!
   
 ## Demo
 
-Live Site - https://techiequiz.vercel.app/
+Live Site - https://learn-r-play.vercel.app/
 
 
 

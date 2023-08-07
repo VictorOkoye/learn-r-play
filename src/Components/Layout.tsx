@@ -16,10 +16,10 @@ import { useWindowSize } from "usehooks-ts";
 import { useState, useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 
-/* using howler omorrrrrr, 
- guy that thing no gree work, 
-i had to refer back to native HTML Audio Element :
-
+/* 
+next tasks
+- update success sound
+- integrate bugfender
 */
 
 const Layout = () => {
@@ -40,8 +40,8 @@ const Layout = () => {
   const audioFiles = [
     "/bg-sound.mp3",
     "/correct.mp3",
-    "/cut-idan.mp3",
-    "/cut-lionishere.mp3",
+    "/cut-futurebeat.mp3",
+    "/crowd-cheer.mp3",
     "/lose-sound.wav",
   ];
 

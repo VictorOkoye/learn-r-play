@@ -14,7 +14,7 @@ export interface IOption {
   text: string;
 }
 
-// change questions to questions about React-play and React, JS
+
 export const Questions: IQuestion[] = [
   {
     id: 1,
@@ -113,7 +113,7 @@ export const Questions: IQuestion[] = [
       { id: 3, text: "Void functions" },
       { id: 4, text: "Lambda functions" },
     ],
-    answer: 2,
+    answer: 3,
   },
   {
     id: 10,
@@ -135,7 +135,7 @@ export const Questions: IQuestion[] = [
       { id: 3, text: "Gatsby" },
       { id: 4, text: "Laravel" },
     ],
-    answer: 2,
+    answer: 4,
   },
   {
     id: 12,
@@ -252,10 +252,10 @@ export const Questions: IQuestion[] = [
     id: 22,
     question: "In JS, '7' + 7 == ?",
     options: [
-      { id: 1, text: "77" },
+      { id: 1, text: "'77'" },
       { id: 2, text: "14" },
-      { id: 3, text: "Error" },
-      { id: 4, text: "false" },
+      { id: 3, text: "77" },
+      { id: 4, text: "Error" },
     ],
     answer: 1,
   },

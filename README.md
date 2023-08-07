@@ -1,19 +1,19 @@
-# techieQuiz
+# Learn-R-Play
 
-A fun and interactive quiz that helps techies get familiar with the tech space in Nigeria built with React x Typescript!🤗
+This is a fun and interactive quiz game to help techies learn more about ReactPlay and React built with React x Typescript!🤗
     
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/youngancient/techieQuiz.git
+  git clone https://github.com/VictorOkoye/learn-r-play.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd techieQuiz
+  cd learn-r-play
 ```
 
 Install dependencies
@@ -48,7 +48,7 @@ Fork the project, make your changes, and submit a pull request!
 
 ## Contributors
   - @Youngancient
-  - @AdedoyinEmmanuel
+  - @VictorOkoye
   
 ## Demo
 
@@ -72,14 +72,6 @@ This project fulfilled the following user stories:
 - When I finish, I see the results
 - I can try again
 
-
-  
-## 🔗 Links
-
-Connect with me on Social Media!
-
-- [Linkedin](https://linkedin.com/in/jude-tochy-922492227/)
-- [Twitter](https://twitter.com/judetochyx)
 
   
 ## Thank you

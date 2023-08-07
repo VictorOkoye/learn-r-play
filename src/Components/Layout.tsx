@@ -18,7 +18,6 @@ import { useDispatch } from "react-redux";
 
 /* 
 next tasks
-- update success sound
 - integrate bugfender
 */
 

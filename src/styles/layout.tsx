@@ -21,9 +21,6 @@ export const LayoutStyles = styled.div<IBgTheme>`
     z-index: 0;
     transition: 1s;
   }
-  audio{
-    // display: none;
-  }
   @keyframes moveOne {
     from {
       right: -50%;

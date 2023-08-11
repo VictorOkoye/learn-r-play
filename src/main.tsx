@@ -7,7 +7,7 @@ import store from "./redux/store.ts";
 import { Bugfender } from "@bugfender/sdk";
 
 // never mind the errors
-Bugfender.init({
+void Bugfender.init({
   appKey: import.meta.env.VITE_BUGFENDER_API_KEY,
 });
 

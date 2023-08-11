@@ -26,7 +26,7 @@ export const MainStyles = styled.main`
   }
   @media (max-width: 500px) {
     h1{
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
     max-width: 348px;
     width: 90%;
@@ -34,6 +34,10 @@ export const MainStyles = styled.main`
   @media (max-width: 370px) {
     width: 95%;
   }
+  @media (min-width: 998px) {
+    width: 60%;
+  }
+
 `;
 
 interface ICodeStyle {

@@ -15,6 +15,7 @@ import ReactConfetti from "react-confetti";
 import { useWindowSize } from "usehooks-ts";
 import { useState, useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
+import { Bugfender } from "@bugfender/sdk";
 
 /* 
 next tasks
@@ -72,7 +73,7 @@ const Layout = () => {
 
   useEffect(() => {
     audioRef?.current?.setAttribute("src", audioFiles[audioIndex]);
-
+    Bugfender.log("Sound loaded");
     /* Play the sound once the user clicks the start button */
     if (playQuizBgSound && hasStarted) {
       setLoopSound(true);
@@ -90,6 +91,7 @@ const Layout = () => {
 
   useEffect(() => {
     if (hasStarted) {
+      Bugfender.log("Quiz started");
       playCorrectSound();
     }
     setTimeout(() => {

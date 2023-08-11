@@ -288,7 +288,7 @@ export const Questions: IQuestion[] = [
       { id: 1, text: "Javascrip" },
       { id: 2, text: "Java" },
       { id: 3, text: "Python" },
-      { id: 4, text: "Javascipt" },
+      { id: 4, text: "Javascript" },
     ],
     answer: 4,
   },

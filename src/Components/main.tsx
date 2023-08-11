@@ -53,6 +53,8 @@ import {
   toggleIsQuestionAnswered,
   toggleShowQuestionList,
 } from "../redux/dataSlice";
+import { Bugfender } from "@bugfender/sdk";
+
 
 export const Main = () => {
   const { questionNoDropdownlist } = useAppSelector(dataSelector);
@@ -261,6 +263,8 @@ export const Result = () => {
   let percent = 0;
   if (numberOfQuestionsSelected !== null) {
     percent = calculatePercent(playerScore, numberOfQuestionsSelected);
+  }else{
+    Bugfender.error("User did not select any question. This could be a possible hack");
   }
 
   const dispatch = useAppDispatch();

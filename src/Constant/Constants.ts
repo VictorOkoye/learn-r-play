@@ -183,7 +183,7 @@ export const Questions: IQuestion[] = [
   },
   {
     id: 16,
-    question: "If you want to combine componentDidMount & componentDidUpdate in a single hook, which will you use?",
+    question: "Which hook combines componentDidMount & componentDidUpdate?",
     options: [
       { id: 1, text: "useEffect" },
       { id: 2, text: "useMemo" },

@@ -29,7 +29,7 @@ export const Questions: IQuestion[] = [
   },
   {
     id: 2,
-    question: "Who currently has the highest number of contributions in ReactPlay's github?",
+    question: "Who currently has the most contributions in ReactPlay's github?",
     options: [
       { id: 1, text: "Koustov" },
       { id: 2, text: "Shyam" },
@@ -117,7 +117,7 @@ export const Questions: IQuestion[] = [
   },
   {
     id: 10,
-    question: "_ is a placeholder in a function declaration,  _ is the value replacing it",
+    question: "_ is to placeholder ,  _ is to value replacing it",
     options: [
       { id: 1, text: "Argument, Parameter" },
       { id: 2, text: "Default, argument" },
@@ -150,7 +150,7 @@ export const Questions: IQuestion[] = [
   },
   {
     id: 13,
-    question: "What is rev if: var arr=[10,9,7,8]; and var rev=arr.reverse();",
+    question: "What is rev if: var arr=[10,9,7,8]; rev=arr.reverse();",
     options: [
       { id: 1, text: "[7,8,9,10]" },
       { id: 2, text: "[10,9,8,7]" },

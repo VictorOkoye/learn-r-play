@@ -8,7 +8,6 @@ function App() {
   useEffect(() => {
     Bugfender.log("App Created");
   }, []);
-  console.log(import.meta.env.VITE_BUGFENDER_API_KEY);
   return (
     <>
       <Layout />

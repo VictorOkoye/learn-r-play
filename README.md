@@ -47,8 +47,8 @@ Contributions are always welcome!
 Fork the project, make your changes, and submit a pull request!
 
 ## Contributors
-  - @Youngancient
   - @VictorOkoye
+  - @Youngancient
   
 ## Demo
 
@@ -56,8 +56,6 @@ Live Site - https://learn-r-play.vercel.app/
 
 
 
-The site in action-
-(to be updated!)
   
 ## User Stories
 
@@ -76,5 +74,5 @@ This project fulfilled the following user stories:
   
 ## Thank you
 
-Thank you for checking out techieQuiz app. If you like the project, leave a Star!
+Thank you for checking out learn-R-Play app. If you like the project, leave a Star!
   
